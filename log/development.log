@@ -1,0 +1,1429 @@
+Started GET "/" for 127.0.0.1 at 2022-09-09 15:08:59 -0400
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 20)
+Completed 200 OK in 16ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 3416)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-09 15:09:15 -0400
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 7)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 239)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-09 15:09:22 -0400
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 6)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2022-09-09 15:09:30 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.7ms | Allocations: 426)
+  Rendered layout layouts/application.html.erb (Duration: 355.1ms | Allocations: 87914)
+Completed 200 OK in 366ms (Views: 357.1ms | ActiveRecord: 0.0ms | Allocations: 89881)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2022-09-09 15:15:29 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 333)
+  Rendered layout layouts/application.html.erb (Duration: 57.3ms | Allocations: 33148)
+Completed 200 OK in 68ms (Views: 60.8ms | ActiveRecord: 0.0ms | Allocations: 36541)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2022-09-09 15:15:30 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2359)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 2673)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2022-09-09 15:15:33 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2198)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 2449)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2022-09-09 15:15:34 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.7ms | Allocations: 121)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2326)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2654)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2022-09-09 15:15:59 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.8ms | Allocations: 128)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2756)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 3573)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2022-09-09 15:16:02 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2197)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 2463)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2022-09-09 15:16:04 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2293)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 2593)
+
+
+  [1m[35m (6.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-09-09 19:20:48.049579"], ["updated_at", "2022-09-09 19:20:48.049579"]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/static_pages/home" for 127.0.0.1 at 2022-09-09 15:28:26 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 335)
+  Rendered layout layouts/application.html.erb (Duration: 54.5ms | Allocations: 33125)
+Completed 200 OK in 63ms (Views: 57.6ms | ActiveRecord: 0.0ms | Allocations: 36518)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2022-09-09 15:28:27 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2385)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 2699)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2022-09-09 15:28:28 -0400
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 121)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2310)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 2638)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2022-09-09 15:28:29 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 106)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2307)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2613)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2022-09-09 15:35:42 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 1.1ms | Allocations: 350)
+Completed 200 OK in 11ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 3834)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-12 11:08:58 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+AbstractController::ActionNotFound (The action 'home' could not be found for ApplicationController):
+  
+actionpack (7.0.4) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:131:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-09-12 11:09:02 -0400
+  
+AbstractController::ActionNotFound (The action 'home' could not be found for ApplicationController):
+  
+actionpack (7.0.4) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:131:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2022-09-12 11:09:24 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 86.5ms | Allocations: 32748)
+Completed 200 OK in 94ms (Views: 88.3ms | Allocations: 34948)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-12 11:09:27 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2220)
+Completed 200 OK in 9ms (Views: 8.4ms | Allocations: 2488)
+
+
+Started GET "/contact" for 127.0.0.1 at 2022-09-12 11:09:29 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/contact"):
+  
+Started GET "/" for 127.0.0.1 at 2022-09-12 11:09:49 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 11)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2326)
+Completed 200 OK in 3ms (Views: 2.8ms | Allocations: 2606)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2022-09-12 11:09:49 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 1.3ms | Allocations: 126)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2345)
+Completed 200 OK in 7ms (Views: 5.4ms | Allocations: 2650)
+
+
+Started GET "/sample_pages/contact" for 127.0.0.1 at 2022-09-12 11:09:55 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/sample_pages/contact"):
+  
+Started GET "/" for 127.0.0.1 at 2022-09-12 11:10:00 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2230)
+Completed 200 OK in 5ms (Views: 4.0ms | Allocations: 2480)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-12 11:19:45 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 373)
+  Rendered layout layouts/application.html.erb (Duration: 63.2ms | Allocations: 33271)
+Completed 200 OK in 74ms (Views: 66.8ms | ActiveRecord: 0.0ms | Allocations: 36664)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2022-09-12 11:19:46 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.9ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2515)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 2906)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2022-09-12 11:19:50 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2211)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 2462)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2022-09-12 11:19:53 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2220)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2471)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2022-09-12 11:19:56 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.9ms | Allocations: 116)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2322)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 2571)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-12 20:00:09 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 373)
+  Rendered layout layouts/application.html.erb (Duration: 80.6ms | Allocations: 33092)
+Completed 200 OK in 101ms (Views: 87.2ms | ActiveRecord: 0.0ms | Allocations: 36485)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-12 20:00:17 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 14)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 2380)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 2694)
+
+
+Started GET "/about" for 127.0.0.1 at 2022-09-12 20:00:19 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+Started GET "/static_pages/about" for 127.0.0.1 at 2022-09-12 20:00:26 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 1.4ms | Allocations: 127)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2487)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 2834)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2022-09-12 20:00:29 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 2222)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 2470)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2022-09-12 20:00:30 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 1.6ms | Allocations: 119)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2335)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 2584)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2022-09-12 20:00:34 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2226)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 2475)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2022-09-12 20:00:35 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2204)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2452)
+
+
+Started GET "/static_pages/FAQ" for 127.0.0.1 at 2022-09-12 20:00:36 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/FAQ"):
+  
+Started GET "/static_pages/about" for 127.0.0.1 at 2022-09-12 20:00:40 -0400
+Processing by StaticPagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2211)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 2459)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-21 10:27:04 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 122.0ms | Allocations: 39198)
+  Rendered layout layouts/application.html.erb (Duration: 150.8ms | Allocations: 41923)
+Completed 200 OK in 166ms (Views: 156.2ms | ActiveRecord: 0.0ms | Allocations: 45315)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-21 10:28:50 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 15.1ms | Allocations: 9215)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 9314)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 10177)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="center jumbotron">
+    <h1>Welcome to the Sample App</h1>
+
+    <h2>
+        This is the home page for the
+        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        sample application
+    </h2>
+
+    <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+<img alt="Rails logo" width="200px" src="/assets/rails-<long string>.svg">                     "https://rubyonrails.org/" %>
+):
+1:    <div class="center jumbotron">
+2:        <h1>Welcome to the Sample App</h1>
+3:    
+4:        <h2>
+5:            This is the home page for the
+6:            <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+7:            sample application
+8:        </h2>
+9:    
+10:        <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+11:    </div>
+12:    
+13:    <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+14:    <img alt="Rails logo" width="200px" src="/assets/rails-<long string>.svg">                     "https://rubyonrails.org/" %>
+  
+app/views/static_pages/home.html.erb:14: syntax error, unexpected '<'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected local variable or method, expecting ')'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected local variable or method, expecting ')'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected '<'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected local variable or method, expecting ')'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected local variable or method, expecting ')'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected '<'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected local variable or method, expecting ')'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected local variable or method, expecting ')'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected '<'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected local variable or method, expecting ')'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected local variable or method, expecting ')'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected '<'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected local variable or method, expecting ')'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected local variable or method, expecting ')'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected '<'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected local variable or method, expecting ')'
+app/views/static_pages/home.html.erb:14: syntax error, unexpected local variable or method, expecting ')'
+Started GET "/" for 127.0.0.1 at 2022-09-21 10:29:09 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1147)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 1236)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2037)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="center jumbotron">
+    <h1>Welcome to the Sample App</h1>
+
+    <h2>
+        This is the home page for the
+        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        sample application
+    </h2>
+    <img alt="Rails logo" width="200px" src="/assets/rails-<long string>.svg">                     "https://rubyonrails.o
+    <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+rg/" %>
+):
+1:    <div class="center jumbotron">
+2:        <h1>Welcome to the Sample App</h1>
+3:    
+4:        <h2>
+5:            This is the home page for the
+6:            <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+7:            sample application
+8:        </h2>
+9:        <img alt="Rails logo" width="200px" src="/assets/rails-<long string>.svg">                     "https://rubyonrails.o
+10:        <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+11:    </div>
+12:    
+13:    <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+14:    rg/" %>
+  
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 127.0.0.1 at 2022-09-21 10:29:20 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1671)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1782)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 5115)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="center jumbotron">
+    <h1>Welcome to the Sample App</h1>
+
+    <h2>
+        This is the home page for the
+        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        sample application
+    </h2>
+    <img alt="Rails logo" width="200px" src="/assets/rails-<long string>.svg">                     "https://rubyonrails.o
+    <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+rg/" %>
+):
+1:    <div class="center jumbotron">
+2:        <h1>Welcome to the Sample App</h1>
+3:    
+4:        <h2>
+5:            This is the home page for the
+6:            <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+7:            sample application
+8:        </h2>
+9:        <img alt="Rails logo" width="200px" src="/assets/rails-<long string>.svg">                     "https://rubyonrails.o
+10:        <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+11:    </div>
+12:    
+13:    <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+14:    rg/" %>
+  
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 127.0.0.1 at 2022-09-21 10:29:21 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1110)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1191)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1458)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="center jumbotron">
+    <h1>Welcome to the Sample App</h1>
+
+    <h2>
+        This is the home page for the
+        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        sample application
+    </h2>
+    <img alt="Rails logo" width="200px" src="/assets/rails-<long string>.svg">                     "https://rubyonrails.o
+    <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+rg/" %>
+):
+1:    <div class="center jumbotron">
+2:        <h1>Welcome to the Sample App</h1>
+3:    
+4:        <h2>
+5:            This is the home page for the
+6:            <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+7:            sample application
+8:        </h2>
+9:        <img alt="Rails logo" width="200px" src="/assets/rails-<long string>.svg">                     "https://rubyonrails.o
+10:        <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+11:    </div>
+12:    
+13:    <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+14:    rg/" %>
+  
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 127.0.0.1 at 2022-09-21 10:29:22 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1106)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 1187)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1414)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="center jumbotron">
+    <h1>Welcome to the Sample App</h1>
+
+    <h2>
+        This is the home page for the
+        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        sample application
+    </h2>
+    <img alt="Rails logo" width="200px" src="/assets/rails-<long string>.svg">                     "https://rubyonrails.o
+    <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+rg/" %>
+):
+1:    <div class="center jumbotron">
+2:        <h1>Welcome to the Sample App</h1>
+3:    
+4:        <h2>
+5:            This is the home page for the
+6:            <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+7:            sample application
+8:        </h2>
+9:        <img alt="Rails logo" width="200px" src="/assets/rails-<long string>.svg">                     "https://rubyonrails.o
+10:        <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+11:    </div>
+12:    
+13:    <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+14:    rg/" %>
+  
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 127.0.0.1 at 2022-09-21 10:29:44 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1146)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 1236)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2022)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="center jumbotron">
+    <h1>Welcome to the Sample App</h1>
+
+    <h2>
+        This is the home page for the
+        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        sample application
+    </h2>
+    <img alt="Rails logo" width="200px" src="/assets/rails-<long string>.svg">          
+    <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+rg/" %>
+):
+1:    <div class="center jumbotron">
+2:        <h1>Welcome to the Sample App</h1>
+3:    
+4:        <h2>
+5:            This is the home page for the
+6:            <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+7:            sample application
+8:        </h2>
+9:        <img alt="Rails logo" width="200px" src="/assets/rails-<long string>.svg">          
+10:        <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+11:    </div>
+12:    
+13:    <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+14:    rg/" %>
+  
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:16: unterminated string meets end of file
+app/views/static_pages/home.html.erb:16: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 127.0.0.1 at 2022-09-21 10:29:53 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1144)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 1233)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2030)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="center jumbotron">
+    <h1>Welcome to the Sample App</h1>
+
+    <h2>
+        This is the home page for the
+        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        sample application
+    </h2>        
+    <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+rg/" %>
+):
+1:    <div class="center jumbotron">
+2:        <h1>Welcome to the Sample App</h1>
+3:    
+4:        <h2>
+5:            This is the home page for the
+6:            <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+7:            sample application
+8:        </h2>        
+9:        <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+10:    </div>
+11:    
+12:    <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+13:    rg/" %>
+  
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 127.0.0.1 at 2022-09-21 10:29:55 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1104)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1184)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1426)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="center jumbotron">
+    <h1>Welcome to the Sample App</h1>
+
+    <h2>
+        This is the home page for the
+        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        sample application
+    </h2>        
+    <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+rg/" %>
+):
+1:    <div class="center jumbotron">
+2:        <h1>Welcome to the Sample App</h1>
+3:    
+4:        <h2>
+5:            This is the home page for the
+6:            <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+7:            sample application
+8:        </h2>        
+9:        <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+10:    </div>
+11:    
+12:    <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+13:    rg/" %>
+  
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 127.0.0.1 at 2022-09-21 10:30:07 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1670)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1781)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 5113)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="center jumbotron">
+    <h1>Welcome to the Sample App</h1>
+
+    <h2>
+        This is the home page for the
+        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        sample application
+    </h2>        
+    <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+rg/" %>
+):
+1:    <div class="center jumbotron">
+2:        <h1>Welcome to the Sample App</h1>
+3:    
+4:        <h2>
+5:            This is the home page for the
+6:            <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+7:            sample application
+8:        </h2>        
+9:        <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+10:    </div>
+11:    
+12:    <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+13:    rg/" %>
+  
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 127.0.0.1 at 2022-09-21 10:30:10 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1109)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1190)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1457)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="center jumbotron">
+    <h1>Welcome to the Sample App</h1>
+
+    <h2>
+        This is the home page for the
+        <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        sample application
+    </h2>        
+    <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+rg/" %>
+):
+1:    <div class="center jumbotron">
+2:        <h1>Welcome to the Sample App</h1>
+3:    
+4:        <h2>
+5:            This is the home page for the
+6:            <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+7:            sample application
+8:        </h2>        
+9:        <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+10:    </div>
+11:    
+12:    <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+13:    rg/" %>
+  
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+app/views/static_pages/home.html.erb:15: unterminated string meets end of file
+app/views/static_pages/home.html.erb:15: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 127.0.0.1 at 2022-09-21 10:30:43 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 64.1ms | Allocations: 31872)
+  Rendered layout layouts/application.html.erb (Duration: 71.0ms | Allocations: 34558)
+Completed 200 OK in 75ms (Views: 73.2ms | ActiveRecord: 0.0ms | Allocations: 35415)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-21 10:31:10 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1706)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 4285)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 5127)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/rails-%3Clong%20string%3E.svg"):
+  
+Started GET "/" for 127.0.0.1 at 2022-09-21 10:38:59 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 951.6ms | Allocations: 118638)
+  Rendered layout layouts/application.html.erb (Duration: 952.1ms | Allocations: 118766)
+Completed 500 Internal Server Error in 961ms (ActiveRecord: 0.0ms | Allocations: 122099)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap-sprokets.
+        on line 1:1 of app/assets/stylesheets/custom.scss
+>> @import "bootstrap-sprokets";
+
+   ^
+):
+  
+app/assets/stylesheets/custom.scss:1
+Started GET "/" for 127.0.0.1 at 2022-09-21 10:39:32 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 853.7ms | Allocations: 132753)
+  Rendered layout layouts/application.html.erb (Duration: 869.0ms | Allocations: 140171)
+Completed 200 OK in 879ms (Views: 872.9ms | ActiveRecord: 0.0ms | Allocations: 143563)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/rails-%3Clong%20string%3E.svg"):
+  
+Started GET "/" for 127.0.0.1 at 2022-09-21 10:44:21 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1508)
+  Rendered layout layouts/application.html.erb (Duration: 542.7ms | Allocations: 68169)
+Completed 200 OK in 544ms (Views: 543.2ms | ActiveRecord: 0.0ms | Allocations: 68465)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/rails-%3Clong%20string%3E.svg"):
+  
+Started GET "/" for 127.0.0.1 at 2022-09-21 10:44:30 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1401)
+  Rendered layout layouts/application.html.erb (Duration: 496.1ms | Allocations: 68393)
+Completed 200 OK in 497ms (Views: 496.5ms | ActiveRecord: 0.0ms | Allocations: 68641)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/rails-%3Clong%20string%3E.svg"):
+  
+Started GET "/" for 127.0.0.1 at 2022-09-21 10:44:36 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1401)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 8165)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 8416)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/rails-%3Clong%20string%3E.svg"):
+  
+Started GET "/" for 127.0.0.1 at 2022-09-21 10:47:03 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1402)
+  Rendered layout layouts/application.html.erb (Duration: 501.4ms | Allocations: 68932)
+Completed 200 OK in 503ms (Views: 502.0ms | Allocations: 69178)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/rails-%3Clong%20string%3E.svg"):
+  
+Started GET "/" for 127.0.0.1 at 2022-09-21 11:00:37 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1727)
+  Rendered layout layouts/application.html.erb (Duration: 505.9ms | Allocations: 71494)
+Completed 500 Internal Server Error in 509ms (Allocations: 72281)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_shim with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/davidshapiro/Desktop - Duck Duck Goose pro/Brandeis/Junior Year/Semester 1/Classes/Software Engineering/Programming Assignments/Ruby On Rails/Chapter 5/sample_app2/app/views"
+  * "/Users/davidshapiro/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actiontext-7.0.4/app/views"
+  * "/Users/davidshapiro/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/header
+               layouts/footer
+               layouts/action_text/contents/content
+               action_text/attachables/missing_attachable
+               action_text/attachment_galleries/attachment_gallery
+               active_storage/blobs/blob):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= render 'layouts/shim' %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/application.html.erb:11
+Started GET "/" for 127.0.0.1 at 2022-09-21 11:00:51 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1726)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 10433)
+Completed 500 Internal Server Error in 19ms (Allocations: 11221)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_shim with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/davidshapiro/Desktop - Duck Duck Goose pro/Brandeis/Junior Year/Semester 1/Classes/Software Engineering/Programming Assignments/Ruby On Rails/Chapter 5/sample_app2/app/views"
+  * "/Users/davidshapiro/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actiontext-7.0.4/app/views"
+  * "/Users/davidshapiro/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/header
+               layouts/footer
+               layouts/action_text/contents/content
+               action_text/attachables/missing_attachable
+               action_text/attachment_galleries/attachment_gallery
+               active_storage/blobs/blob):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= render 'layouts/shim' %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/application.html.erb:11
+Started GET "/" for 127.0.0.1 at 2022-09-21 11:00:53 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1402)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 9682)
+Completed 500 Internal Server Error in 14ms (Allocations: 9923)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_shim with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/davidshapiro/Desktop - Duck Duck Goose pro/Brandeis/Junior Year/Semester 1/Classes/Software Engineering/Programming Assignments/Ruby On Rails/Chapter 5/sample_app2/app/views"
+  * "/Users/davidshapiro/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actiontext-7.0.4/app/views"
+  * "/Users/davidshapiro/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/header
+               layouts/footer
+               layouts/action_text/contents/content
+               action_text/attachables/missing_attachable
+               action_text/attachment_galleries/attachment_gallery
+               active_storage/blobs/blob):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    11:     <%= render 'layouts/shim' %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/application.html.erb:11
+Started GET "/" for 127.0.0.1 at 2022-09-21 11:01:30 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1726)
+  Rendered layouts/_shim.html.erb (Duration: 0.4ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 10652)
+Completed 500 Internal Server Error in 20ms (Allocations: 11422)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/__header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/davidshapiro/Desktop - Duck Duck Goose pro/Brandeis/Junior Year/Semester 1/Classes/Software Engineering/Programming Assignments/Ruby On Rails/Chapter 5/sample_app2/app/views"
+  * "/Users/davidshapiro/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actiontext-7.0.4/app/views"
+  * "/Users/davidshapiro/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/header
+               layouts/footer
+               layouts/shim
+               layouts/action_text/contents/content
+               active_storage/blobs/blob
+               action_text/attachables/remote_image):
+    12:   </head>
+    13: 
+    14:   <body>
+    15:     <%= render 'layouts/_header' %>
+    16:     <div class="container">
+    17:       <%= yield %>
+    18:       <%= render 'layouts/_footer' %>
+  
+app/views/layouts/application.html.erb:15
+Started GET "/" for 127.0.0.1 at 2022-09-21 11:01:31 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1402)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 9750)
+Completed 500 Internal Server Error in 16ms (Allocations: 9988)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/__header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/davidshapiro/Desktop - Duck Duck Goose pro/Brandeis/Junior Year/Semester 1/Classes/Software Engineering/Programming Assignments/Ruby On Rails/Chapter 5/sample_app2/app/views"
+  * "/Users/davidshapiro/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actiontext-7.0.4/app/views"
+  * "/Users/davidshapiro/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  layouts/header
+               layouts/footer
+               layouts/shim
+               layouts/action_text/contents/content
+               active_storage/blobs/blob
+               action_text/attachables/remote_image):
+    12:   </head>
+    13: 
+    14:   <body>
+    15:     <%= render 'layouts/_header' %>
+    16:     <div class="container">
+    17:       <%= yield %>
+    18:       <%= render 'layouts/_footer' %>
+  
+app/views/layouts/application.html.erb:15
+Started GET "/" for 127.0.0.1 at 2022-09-21 12:19:48 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1726)
+  Rendered layouts/_shim.html.erb (Duration: 1.8ms | Allocations: 103)
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 269)
+  Rendered layouts/_footer.html.erb (Duration: 1.4ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 27.6ms | Allocations: 9528)
+Completed 200 OK in 37ms (Views: 33.8ms | Allocations: 10325)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-21 12:20:57 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1722)
+  Rendered layouts/_shim.html.erb (Duration: 0.4ms | Allocations: 103)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 267)
+  Rendered layouts/_footer.html.erb (Duration: 1.2ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 9547)
+Completed 200 OK in 19ms (Views: 17.8ms | Allocations: 10372)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-21 12:21:09 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1722)
+  Rendered layouts/_shim.html.erb (Duration: 0.7ms | Allocations: 103)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 267)
+  Rendered layouts/_footer.html.erb (Duration: 2.3ms | Allocations: 787)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 10204)
+Completed 200 OK in 20ms (Views: 19.5ms | Allocations: 11025)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-21 12:21:25 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1729)
+  Rendered layouts/_shim.html.erb (Duration: 0.3ms | Allocations: 103)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 267)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 182)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 9607)
+Completed 200 OK in 16ms (Views: 15.3ms | Allocations: 10429)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-21 12:36:32 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1398)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 92)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 571.0ms | Allocations: 69340)
+Completed 200 OK in 572ms (Views: 571.5ms | Allocations: 69602)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-21 12:36:36 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1402)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 92)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 8384)
+Completed 200 OK in 14ms (Views: 13.4ms | Allocations: 8629)
+
+
+  [1m[35m (245.4ms)[0m  [1m[35mCREATE DATABASE "sample_app2_development" ENCODING = 'unicode'[0m
+  [1m[35m (91.0ms)[0m  [1m[35mCREATE DATABASE "sample_app2_test" ENCODING = 'unicode'[0m
+  [1m[35m (13.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (4.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (0)[0m
+  [1m[35m (9.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-09-23 01:15:43.855809"], ["updated_at", "2022-09-23 01:15:43.855809"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "23ca68f8d4a33185ab02688ca81bba4da5971dcf"], ["created_at", "2022-09-23 01:15:43.867222"], ["updated_at", "2022-09-23 01:15:43.867222"]]
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (7.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (0)[0m
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-09-23 01:15:43.915639"], ["updated_at", "2022-09-23 01:15:43.915639"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.4ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2022-09-23 01:15:43.921875"], ["key", "environment"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "23ca68f8d4a33185ab02688ca81bba4da5971dcf"], ["created_at", "2022-09-23 01:15:43.927617"], ["updated_at", "2022-09-23 01:15:43.927617"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6019767684805735455)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(6019767684805735455)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (4.9ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6019767684805735455)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (4.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20220929150350)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (35.6ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying, "email" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220929150350"]]
+  [1m[36mTRANSACTION (3.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6019767684805735455)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (7.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "David"], ["email", "David.shapuro27@gmail.com"], ["created_at", "2022-09-29 15:11:53.733857"], ["updated_at", "2022-09-29 15:11:53.733857"]]
+  [1m[36mTRANSACTION (4.0ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Honey"], ["email", "Bunny"], ["created_at", "2022-09-29 15:13:39.085026"], ["updated_at", "2022-09-29 15:13:39.085026"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "sweetie"], ["email", "Peetyu"], ["created_at", "2022-09-29 15:14:08.499019"], ["updated_at", "2022-09-29 15:14:08.499019"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Destroy (4.9ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 3]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "David.shapuro27@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (3.7ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["email", "love"], ["updated_at", "2022-09-29 15:21:26.307702"], ["id", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "name" = $1, "email" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["name", "you"], ["email", "me"], ["updated_at", "2022-09-29 15:21:48.289425"], ["id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Update (0.7ms)[0m  [1m[33mUPDATE "users" SET "name" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["name", "Summer"], ["updated_at", "2022-09-29 15:22:33.448819"], ["id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user@example.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (2.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Example User"], ["email", "user@example.com"], ["created_at", "2022-09-29 18:06:02.401946"], ["updated_at", "2022-09-29 18:06:02.401946"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "USER@EXAMPLE.COM"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6019767684805735455)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddIndexToUsersEmail (20220929180945)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (9.6ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220929180945"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6019767684805735455)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6019767684805735455)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddPasswordDigestToUsers (20220929205249)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (3.5ms)[0m  [1m[35mALTER TABLE "users" ADD "password_digest" character varying[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220929205249"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6019767684805735455)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (6.9ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "goerge@gmail.com"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "goerge@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6019767684805735455)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6019767684805735455)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "michael@example.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "password_digest") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Michael Hartl"], ["email", "michael@example.com"], ["created_at", "2022-09-29 21:10:01.749531"], ["updated_at", "2022-09-29 21:10:01.749531"], ["password_digest", "[FILTERED]"]]
+  [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "michael@example.com"], ["LIMIT", 1]]
